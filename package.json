@@ -1,0 +1,17 @@
+{
+  "name": "hbr-token-local-prototype",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local-only fixed-supply HBR ERC-20 prototype for EVM testing.",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.5"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
